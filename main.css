@@ -1,26 +1,40 @@
 main {
     margin-top: 60px;
+
 }
 
 /*header style*/
-header nav {
+header{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-header nav ul {
+div{
+    background-color: gray;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+div p{
     display: flex;
     flex-direction: row;
-    padding-bottom: 0;
 }
 
-header nav ul li {
-    list-style-type: none;
+button{
+    float: right;
 }
 
-div {
-    background-color: gray;
+.noBackground{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+
 }
 
 
